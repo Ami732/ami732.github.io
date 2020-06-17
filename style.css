@@ -1,0 +1,516 @@
+.wrap{
+  overflow: hidden;
+}
+
+.flower-top{
+  background-image: url("bg_header_pink-4704d42ed44908fb061e80afc515a93ab2fcbfd605c2580de486a4d980b2115a.jpg");
+  background-size: cover;
+ background-position: center bottom;
+ height:100vh ;
+ min-height: 680px;
+ text-align: center;
+}
+
+@media(max-width :768px ){
+  .flower-top{
+    background-position: 60%;
+    height: 600px;
+  }
+
+}
+
+.flower-logos img{
+  height: 100px;
+  width: 100px;
+  margin-top: 200px;
+}
+
+.flower-logos p{
+  color:#fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.appres{
+  display: flex;
+  margin-top: 180px;
+  justify-content: center;
+}
+
+.app {
+  margin-right: 30px;
+}
+
+.area p{
+  color: #fff;
+  margin-top: 50px;
+
+  
+}
+
+.appres img{
+  height: 50px;
+  width: 160px;
+}
+
+/* トップ下部分 */
+
+.flower-top{
+  padding: 0;
+  max-width: 100%;
+}
+.container{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+
+@media(max-width :768px ){
+  .top-container{
+    width: 100%;
+  overflow: hidden;
+  margin: 0;
+  }
+  .container{
+    display:block;
+  
+  }
+
+  .fl{
+    min-width: 100%;
+   margin: 0px;
+  }
+
+}
+
+.fl{
+  width: 80%;
+  height: 500px;
+  color: #fff;
+  padding-right: 30px;
+  padding-left:30px ;
+  }
+
+  .fl h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+.flower-a{
+  background-image: url("/Users/nagataami/Documents/flower模写/bg_service01-01ee576583ddad054106d9f2dc78caf78be6c829383351a4fbc99ac5a566020a.jpg");
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.flower-b{
+  background-image:url(/Users/nagataami/Documents/flower模写/bg_service02-cd59d8cd17b05503a9fc3eeae42d618d0cc19b2277b581f5db275d5dde09e94d.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.flower-c{
+  background-image: url(/Users/nagataami/Documents/flower模写/bg_service03-4c44f872ed6f7ed3007faeb109b1e03ceabcdb3106ba54392a5457a159a0f2ab.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* トップ下２部分 */
+.info{
+  display: flex;
+  text-align: center;
+}
+
+@media(max-width :768px ){
+  .info{
+    display: inline;
+  }
+  .onecoin h2{
+    width: 120px;
+    margin-left: 120px !important;
+  }
+  
+  }
+
+
+.onecoin{
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.onecoin h3{
+  padding-top: 50px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.onecoin h2{
+  background-color: sandybrown;
+  color: #fff;
+  margin-left: 150px;
+margin-right: 150px;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 130px;
+  left: 14px;
+}
+
+.onecoin img{
+  width: 200px;
+  height: 200px;
+ margin-top: 30px;
+ 
+}
+.onecoin, .pace{
+  width: 50%;
+}
+@media(max-width :768px ){
+  .onecoin, .pace{
+    width: 100%;
+  }
+  .pace { 
+    padding-top: 20px !important;
+    padding-bottom: 30px;
+  }
+}
+
+.booke {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 18px;
+}
+.sp{
+  font-size: 25px;
+}
+.tax{
+  font-size: 12px;
+  padding-bottom: 
+  30px;
+}
+
+.pace{
+  padding-top: 140px;
+}
+
+.pace p{
+  padding-bottom: 40px;
+  font-size: 20px;
+}
+
+.pace img{
+  width: 170px;
+  height: ;
+}
+
+/* どんなお花が届くの */
+
+.what-flower{
+  background-color: #ead5dc;
+  height: 700px;
+  display: flex;
+  background-image: url(/Users/nagataami/Documents/flower模写/bg_flower-1a07674a0e731b035e9344d0b0ec772eb116759368da38dc0b21bec925479009.jpg);
+  background-size: 46%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+@media(max-width :760px ){
+  .what-flower{
+  background-position:40px 100px;
+  background-size: 80%;
+  height: 880px;
+  }
+  .text {
+    margin-left: 10% !important;
+  }
+
+  .text h3{
+    margin-bottom: 200px;
+  }
+
+  .text-a p{
+    padding: 0px 30px;
+  }
+}
+
+.text{
+ padding-top: 60px;
+  margin-left: 55%;
+}
+
+.text h3{
+  text-align: center;
+  padding-bottom: 30px;
+  
+}
+.text-a h2{
+  font-size: 23px;
+  text-align: center;
+
+}
+
+.text-a p{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+/* 簡単かわいい部分 */
+
+.easy{
+  background-image: url(/Users/nagataami/Documents/flower模写/bg_vase-45bcc89846e1a077353f799e42054251c3e3e570fcc453b8d96282d5df1ad6db.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50%;
+  background-color: #e7e3df;
+  padding: 60px;
+ 
+}
+@media(max-width :760px ){
+  .easy{
+background-position: 30px 90px;
+background-size: 90%;
+height: 1000px;
+padding: 50px 0;
+
+  }
+  
+  .easy-left{
+    margin-left: 10%;
+    width: 70%;
+  }
+  .easy-left h3{
+    width: 250px;
+    font-size: 22px;
+    margin-left: 10%;
+  }
+  .first-25{
+    margin-bottom: 300px !important;
+    max-width: 400px;
+  }
+  .text-c{
+    width: 300px !important;
+  }
+
+  .img-boul {
+    width: 400px !important;
+  }
+
+  .img-boul img{
+    margin-right: 10px !important;
+  }
+
+}
+
+
+
+.text-c{
+  margin: 0 auto;
+ 
+
+}
+
+
+.easy-left{
+width: 50%;
+}
+
+.easy-left h3{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.first-25{
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 5px;
+  width: 235px;
+  margin: 0 auto;
+}
+div{
+  display:block;
+}
+
+.text-c{
+  text-align: justify;
+  margin: 0 auto;
+  width: 400px;
+  padding-top: 30px;
+}
+
+
+.img-boul{
+  margin: 32px auto;
+  width: 400px;
+  
+}
+
+.img-boul img{
+  width: 98px;
+  height: 116px;
+ margin-right: 32px;
+  text-align: center;
+}
+
+.first-2 {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.week-2{
+  margin-right: 50px;
+  border:  2px solid black;
+  padding: 5px;
+}
+.able{
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+/* flowerだから続けられる */
+
+
+
+.continue{
+  text-align: center;
+  height: 500px;
+  padding-top: 80px;
+}
+
+.continue h2{
+  padding-bottom: 30px;
+  line-height: 50px;
+}
+.container-a{
+  display:flex;
+  text-align: center;
+}
+
+@media(max-width :760px ){
+
+  .continue{
+    height: 790px;
+   
+  }
+
+  .continue h2{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .container-a{
+    display: inline-block;
+   
+  }
+  .con-a{
+    width: 100%!important;
+  }
+}
+
+.con-a{
+  width: 33%;
+}
+.con-a img{
+  width: 80px;
+  height: 80px;
+}
+
+.con-a h3{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+/* 最後部分 */
+
+.last{
+  background-color:#efdfc5 ;
+}
+
+.con-b{
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_download2-afd5325a6ad7ae095cd1aad7172be40a68704bad0eaae90dbff5e274759345ad.jpg);
+  background-color: #efdfc5;
+  background-position:bottom ;
+  background-size: contain;
+width: 80%;
+height: 420px;
+  background-repeat: no-repeat;
+}
+
+.item {
+  text-align: right;
+ 
+}
+
+.item img{
+  height: 80px;
+  width:120px;
+  margin-top: 10%;
+  margin-right: 30px;
+  text-align: center;
+
+}
+
+.item p{
+  margin-right: 20px;
+}
+
+/* footer部分 */
+footer{
+  text-align: center;
+  background-color: #3f434a;
+  height: 350px;
+  position: relative;
+}
+
+.last-list{
+  width: 77%;
+}
+.last-list ul{
+  display: flex;
+  justify-content:space-between;
+  padding-top: 40px;
+
+
+}
+@media(max-width :760px ){
+.last-list ul{
+  display: inline;
+  
+}
+}
+
+.last-list li{
+  list-style: none;
+  margin-right: 30px;
+  text-decoration: none;
+  
+}
+
+
+.last-list a{
+  color: #fff;
+}
+
+
+.insta img{
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+
+footer p{
+  padding-top: 90px;
+  color:gray;
+  font-size: 14px;
+}
